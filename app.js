@@ -10,15 +10,13 @@ function exibirAlert() {
 }
 
 function exibirPrompt() {
-    let nomeDaCidade = prompt('Digite o nome de uma cidade do Brasil que você gosta muito:')
+    let nomeDaCidade = prompt('Volta Reonda')
     alert(`Estive em ${nomeDaCidade} e lembrei de você`)
 }
 
-
-
 function somandoDoisNumeros() {
-    let primeiroNumero = parseInt(prompt('Digite o primeiro número'));
-    let segundoNumero = parseInt(prompt('Digite o segundo número'));
+    let primeiroNumero = parseInt(prompt('28'));
+    let segundoNumero = parseInt(prompt('72'));
     let resultado = primeiroNumero + segundoNumero;
     alert(`${primeiroNumero} + ${segundoNumero} = ${resultado}`)
 }
