@@ -1,0 +1,21 @@
+let titulo = document.querySelector('h1)');
+titulo.innerHTML = 'Hora do Desafio';
+
+function exibirMensagemNoConsole9 {
+    console.log('O botão foi clicado!')
+}
+
+function exibirAlert() {
+    alert('Eu Amo JS')
+}
+
+function exibirPrompt() {
+    alert(`Estive em ${nomeDaCidade} e lembrei de você`)
+}
+
+function somonadoDoisNumeros() {
+    let primeiroNumero = parseInt(prompt('Digite o primeiro número'));
+    let segundoNumero = parseInt(prompt('Digite o segundo número'));
+    let resultado = primeiroNumero + segundoNumero;
+    alert(`${primeiroNumero} + ${segundoNumero} = ${resultado}`)
+}
