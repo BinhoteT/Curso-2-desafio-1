@@ -5,7 +5,7 @@ function exibirMensagemNoConsole() {
     console.log('O botão foi clicado!')
 }
 
-function exibirAlert() {
+function exibirAlerta() {
     alert('Eu Amo JS')
 }
 
