@@ -10,7 +10,7 @@ function exibirAlerta() {
 }
 
 function exibirPrompt() {
-    let nomeDaCidade = prompt('Volta Redonda')
+    let nomeDaCidade = prompt('Volta Digite o nome de uma cidade do Brasil que você gosta muito:')
     alert(`Estive em ${nomeDaCidade} e lembrei de você`)
 }
 
